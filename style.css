@@ -745,30 +745,24 @@ nav a span{
     color: black;
 }
 .cards{
-    /* position: relative; */
-    width: 90%;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 10px;
-  /* margin-left: 140px; */
-   display: grid;
-   /* align-items: center;
-   justify-content: space-between;
-   flex-wrap: wrap; */
-   grid-template-columns: repeat(5,1fr);
-   row-gap: 10px;
-   
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ gap: 30px;
+padding: 12px;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
 }
 
 .cards .card{
     width: 250px;
     height: 350px;
     border-radius: 15px ;
-    /* margin-right: 10px; */
-    margin-top: 20px;
     background: black;
     transition: .3s linear ;
-    margin-top: 30px;
     -webkit-border-radius: 15px ;
     -moz-border-radius: 15px ;
     -ms-border-radius: 15px ;
@@ -778,12 +772,7 @@ nav a span{
 .cards .card img{
     width: 100%;
     height: 100%;
-    /*display: none;
-    */border-radius: 15px;
-    -webkit-border-radius: 1;
-    -moz-border-radius: 1;
-    -ms-border-radius: 1;
-    -o-border-radius: 1;
+border-radius: 15px;
     /* box-shadow: 0px 0px 20px rgb(184, 184, 184,.4) ; */
 
 }
@@ -791,35 +780,6 @@ nav a span{
 scale: 1.02;
 box-shadow: 0px 0px 20px rgb(184, 184, 184,.4) ;
 }
-
-/@media only screen and (min-width:940px ) and (max-width:1450px){
-    .cards{
-   grid-template-columns: repeat(3,1fr);
-     margin-left: 130px; 
-    }
-} 
-
-@media only screen and  (max-width:949px){
-    .cards{
-   grid-template-columns: repeat(2,1fr);
-    
-    }
-} 
-@media only screen and  (max-width:620px){
-    .cards{
-   grid-template-columns: repeat(1,1fr);
-     
-     margin: 0 auto;
-    }
-
-  
-} 
-
-
-
-
-
- 
 
 
 
