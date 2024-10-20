@@ -103,6 +103,7 @@ body{
     padding: 10px 40px;
     background: unset;
 }
+
 .book .right::before{
        position: absolute;
        content: '';
@@ -261,8 +262,7 @@ min-width: 40px;
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
-
+flex-direction: column;  
 cursor: pointer;
 }
 .book .right  .crd li h6{
@@ -387,6 +387,7 @@ cursor: pointer;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   flex-wrap: wrap;
    margin-top: 5px;
 }
 
@@ -446,7 +447,7 @@ font-size: 15px;
 padding-top: 18px;
 }
 
-/* JS CLASS */
+/* JS CLASS */  
 .book .right .chair .booked{
     background-color: #fd6565 !important;
 }
